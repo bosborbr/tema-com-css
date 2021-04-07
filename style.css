@@ -1,14 +1,26 @@
+
 body {
+    background-image: url(fundo.jpg)
 }
 
 main#container {
+    background-color: rgba(155, 155, 155, 0.603) ;
+    box-shadow:  5px 3px rgb(27, 23, 68);
 }
 
 h1.titulo {
+    font-family: sans-serif;
+    text-shadow: 2px 2px 0px darkblue, 3px 3px black;
 }
 
 p.frase {
+    font-style: inherit;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 p.autor {
+    font-style: oblique;
+    text-shadow: 0px 1px darkblue;
+    font-family: monospace;
 }
